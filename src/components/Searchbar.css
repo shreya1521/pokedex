@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+.svg{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    height: 15px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none!important;
+    cursor: pointer;
+    fill: #5a6674;
+}
+.searchinput{
+    position: absolute;
+  top: 10px;
+  left: 38px;
+  font-size: 14px;
+  background: none;
+  color: #5a6674;
+  width: 195px;
+  height: 20px;
+  border: none;
+  appearance: none;
+  outline: none;
+}
+
+.card{
+  margin-left: 90px;
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline-block;
+  align-items: center;
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.cardimg{
+  position: relative;
+  width: 250px;
+  height: 250px;
+} 
+.img{
+ 
+   width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding-left: 40px;
+padding-top: 20px;
+} 
+
+.searchform {
+  position: relative;
+  left: 50%;
+  width: 350px;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translate(-50%, -50%);
+  background: white;
+  transition: all 0.3s ease;
+  margin-top: 70px;
+}
+
+.h3{
+ 
+ 
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.itemname{
+  color: #a06cd5;
+}
+.root{
+  background-color: #c0fdff;
+  
+  height: 100%;
+  width: 100%;
+  margin-top: -40px;
+}
+.moves{
+  background-color: #ffc2d1;
+  background-size: 100px;
+  height: 522px;
+}
+.moveshead{
+  margin-top: 65px;
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color:white;
+}
+.movesp{
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Kodchasan', sans-serif;
+  margin-top: 20px;
+}
+.nav{
+  width: 100%;
+  background-color: #a06cd5;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+    margin-bottom: -80px;
+}
+.head{
+  display: grid;
+  height: 3.5rem;
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+.head h2{
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+}
+.menu{
+  grid-column: 3/4;
+}
+.menu ul{
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul li{
+  font-size: 1rem;
+}
+.menu ul li a{
+  transform: 0.5s;
+  color: white;
+}
+.menu ul li:hover > a{
+  transform-origin: left;
+  text-decoration: underline;
+  transform: 0.5s;
+}
+
+.pokedata{
+  height: 760px;
+}
+.pokedata h2{
+  
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.pokedata h2 span{
+  
+  border-radius: 0px 0px 40px 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.pokedata h1{
+  margin-top: 65px;
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color:white;
+}
+.pokedata img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.ham{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ham a{
+  color: white;
+}
+.pleasewait{
+  margin-top: 100px;
+  margin-left: 100px;
+}
